@@ -1,0 +1,9 @@
+{
+  "name":"Jesus paladinez",
+  "document":"123456789",
+  "password":"test1",
+  "email":"test1@test.com",
+  "birthday":"2003/07/23",
+  "gender":"Helicoptero de combate",
+  "phone":"3113111331"
+}
