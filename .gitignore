@@ -1,1 +1,15 @@
+# Directorios de node_modules y npm
 node_modules/
+npm_modules/
+
+# Archivos de compilación
+build/
+dist/
+
+# Archivos de prueba
+test/
+coverage/
+
+# Archivos de configuración local
+.env
+.editorconfig
