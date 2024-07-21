@@ -4,9 +4,9 @@ export const getAllUsers = async (req,res) => {
 
     try {
         
-        const users = await User.find({})
+        const users = await User.find({}).select('-password')
 
-        res.status(201).json(users)
+        res.status(200).json(users)
 
     } catch (error) {
         res.status(500).json({ message: 'An error occurred get the users', error: error.message });
@@ -20,7 +20,7 @@ export const getUserById = async (req,res) => {
 
     try {
         
-        const user = await User.findById(idUser)
+        const user = await User.findById(idUser).select('-password')
 
         res.status(201).json(user)
 
